@@ -17,7 +17,7 @@ IF(CMAKE_COMPILER_IS_GNUCXX)
 ENDIF(CMAKE_COMPILER_IS_GNUCXX)
 
 add_executable(chemkinReaderTest test/chemkinReaderTest.cpp)
-target_link_libraries(chemkinReaderTest chemkinReader ${Boost_REGEX_LIBRARY})
+target_link_libraries(chemkinReaderTest chemkinreader ${Boost_REGEX_LIBRARY})
 
 # Subsidiary libraries for the solvers
 add_subdirectory(src)
