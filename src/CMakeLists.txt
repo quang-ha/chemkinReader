@@ -5,7 +5,7 @@
 
 project (CHEMKINREADER)
 
-add_library(chemkinReader 
+add_library(chemkinreader SHARED
             stringFunctions.cpp
             element.cpp 
             transport.cpp
